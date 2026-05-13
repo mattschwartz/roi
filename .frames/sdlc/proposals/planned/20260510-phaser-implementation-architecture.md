@@ -3,7 +3,7 @@ name: "Phaser 4 implementation architecture"
 description: "Specifies how Phaser 4 is wired into ROI: scene shape, asset layout, bundler, TS baseline, test framework, bullet entity, device-class detection, atlas tool, plugin landscape, and types maturity."
 date_created: 2026-05-10
 author: architect
-status: accepted
+status: planned
 date_accepted: 2026-05-10
 reviewers: [engineer, designer, matt]
 reviewer_decisions:
@@ -11,7 +11,6 @@ reviewer_decisions:
   designer: Aligned
   matt: Aligned
 ---
-
 # Proposal: Phaser 4 implementation architecture
 
 ## Problem

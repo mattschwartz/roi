@@ -1,0 +1,4 @@
+- [ROI design compass](project_roi_design_compass.md) — Return on Investment is a 2D bullet hell, concept stage; thesis-first design pushes architecture toward sprite density, shaders, typography, TS.
+- [Solo-dev calibration](feedback_solo_dev_calibration.md) — for solo + AI-assisted projects, weight speed-to-first-playable and LLM training-corpus density heavily; don't lead with pure architectural-fit arguments.
+- [Corpus argument calibration](feedback_corpus_argument_calibration.md) — gate the LLM-corpus-density argument by how much of the surface area actually differs; strong for framework choices, weak for runtime/PM/build-tool choices.
+- [Risk-posture calibration](feedback_risk_posture_calibration.md) — with AI-assisted dev + high stack confidence, default to scaffold-first; "validate before invest" framings overweight the throwaway risk.

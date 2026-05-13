@@ -1,0 +1,2 @@
+- [Visual register anchors](visual_register_anchors.md) — Cruelty Squad / NORCO, deliberately-ugly not stylized, what shader work this implies and rules out
+- [Floor 5 density is dramaturgy](floor_5_density_thesis.md) — Floor 5 is exempt from density cuts; degrade framerate and visual fidelity first; per-floor curve, not global multiplier
