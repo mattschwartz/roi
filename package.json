@@ -1,0 +1,42 @@
+{
+  "name": "roi",
+  "version": "0.0.0",
+  "description": "Return on Investment — a 2D bullet hell about surviving capitalism's terminal form.",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "scripts": {
+    "dev": "bun --bun vite dev",
+    "build": "bun --bun vite build",
+    "preview": "bun --bun vite preview",
+    "lint": "bun --bun eslint .",
+    "typecheck": "tsc --noEmit",
+    "verify": "echo 'verify: tests run here once test-framework task lands' && exit 0",
+    "ci": "echo 'ci: build + verify run here once test-framework task lands' && exit 0",
+    "prepare": "simple-git-hooks"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "bun run lint"
+  },
+  "dependencies": {
+    "phaser": "^4.0.0",
+    "phaser3-rex-plugins": "^1.80.20"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "@types/node": "^22.10.0",
+    "@vitest/browser": "^3.0.0",
+    "eslint": "^9.18.0",
+    "eslint-plugin-import-x": "^4.6.0",
+    "jiti": "^2.4.0",
+    "playwright": "^1.50.0",
+    "simple-git-hooks": "^2.11.0",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.20.0",
+    "vite": "^6.0.0",
+    "vite-tsconfig-paths": "^5.1.0",
+    "vitest": "^3.0.0"
+  }
+}
